@@ -1,0 +1,12 @@
+{
+  "name": "netlify-500-error-server",
+  "version": "1.0.0",
+  "description": "A Netlify Functions project that returns HTTP 500 on /error",
+  "scripts": {
+    "dev": "netlify dev",
+    "start": "netlify dev"
+  },
+  "devDependencies": {
+    "netlify-cli": "^12.0.0"
+  }
+}

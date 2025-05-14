@@ -1,0 +1,9 @@
+[build]
+  publish = "public"
+  functions = "functions"
+
+[[redirects]]
+  from = "/error"
+  to = "/.netlify/functions/error"
+  status = 500
+  force = true
